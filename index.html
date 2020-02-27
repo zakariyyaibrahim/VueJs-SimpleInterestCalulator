@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Interest Calculator In VueJs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="myApp">
+<h1 class="myHeader">Simple Interest Auto-Calculator In VueJs Framework</h1>
+
+
+<center>
+<form id="myForm">
+	<label class="label">Principal:</label><br><input v-model="principal" type="number"><br>
+
+	<label class="label">Rate:</label><br><input v-model="rate" type="number"><br>
+
+	<label class="label">Time:</label><br><input v-model="time" type="number">
+</form>
+</center>
+<p>This is the Simple Interest for the above values: {{ SimpleInterest() }} Naira</p>
+
+</div>	
+
+<div class="myHeader">
+ <a>copyright&copy 2018 zakariyyum2@gmail.com </a> 
+</div>
+<script src="app.js"></script>
+</body>
+</html>

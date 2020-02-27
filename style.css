@@ -1,0 +1,12 @@
+#myApp{
+
+}
+.myHeader{
+	text-align: center;
+	background-color: #aaa;
+	height: 100px;
+}
+#myForm{
+	align-self: center;
+	margin-bottom: 50px;
+}
